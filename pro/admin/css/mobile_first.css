@@ -1,0 +1,14 @@
+.container-fluid
+{
+    width:80%;
+margin: auto;
+    overflow: hidden;
+}
+@media (max-width: 768px)
+{
+    .container-fluid {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
